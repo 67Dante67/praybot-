@@ -4,9 +4,9 @@ from random import randint
 
 bot = Bot(command_prefix="?", self_bot=True, chunk_guilds_at_startup=False)
 
-TOKEN = "YOUR TOKEN"
-LOG_CHANNEL = "YOUR LOG CHANNEL ID" # OPTIONAL - Put the channel ID without quotation marks
-CHANNEL_IDS = []
+TOKEN = "ODg2NjYxMjg5Mjc4MDUwMzU0.G2izyk.7BTfSU_teZ4jPodtZ075pKjlD1c1LpCzHVari8"
+LOG_CHANNEL = "1276946609099247707" # OPTIONAL - Put the channel ID without quotation marks
+CHANNEL_IDS = [1276946211517239371]
 
 @bot.event
 async def on_ready():
